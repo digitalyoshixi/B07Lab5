@@ -40,4 +40,3 @@ public class Ellipse {
     return 2 * Math.PI * Math.sqrt( (Math.pow(a, 2) + Math.pow(b, 2) ) / 2);
   }
 }
-
