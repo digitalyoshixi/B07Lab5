@@ -13,11 +13,11 @@ public class Ellipse {
 	}
 
   public Point get_center_point(){
-	return new Point((B.x-A.x)/2, (B.y-A.y)/2);
+	return new Point((B.x+A.x)/2, (B.y+A.y)/2);
   }
 
   public double get_center(){
-    return Math.sqrt(Math.pow((A.x-B.x)/2, 2) + Math.pow((A.y-B.y)/2, 2));
+    return Math.sqrt(Math.pow((A.x+B.x)/2, 2) + Math.pow((A.y+B.y)/2, 2));
   }
 
   public double get_semimajor() {
