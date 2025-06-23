@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import cscb07.Triangle;
-
 /**
  * Unit test for simple App.
  */
