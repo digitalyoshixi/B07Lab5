@@ -33,4 +33,10 @@ public class Ellipse {
 	double b = this.get_semiminor();
     return 1/a * Math.sqrt(Math.pow(a, 2) - Math.pow(b, 2));
   }
+  
+  public double get_perimeter(){
+	double a = this.get_semimajor();
+	double b = this.get_semiminor();
+    return 2 * Math.PI * Math.sqrt( (Math.pow(a, 2) + Math.pow(b, 2) ) / 2);
+  }
 }
