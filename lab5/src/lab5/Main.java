@@ -3,7 +3,7 @@ package lab5;
 public class Main {
 
 	public static void main(String[] args){
-    Ellipse myellipse = new Ellipse(new Point(0,0), new Point(6,8), 16);
+    Ellipse myellipse = new Ellipse(new Point(-1,0), new Point(1,0), 6);
     System.out.println("c_point : (" + myellipse.get_center_point().x + "," + myellipse.get_center_point().y + ")");
     System.out.println("c : " + myellipse.get_center());
     System.out.println("a : " + myellipse.get_semimajor());

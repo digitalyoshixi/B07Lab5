@@ -17,7 +17,7 @@ public class Ellipse {
   }
 
   public double get_center(){
-    return Math.sqrt(Math.pow((A.x+B.x)/2, 2) + Math.pow((A.y+B.y)/2, 2));
+    return A.distance(get_center_point());
   }
 
   public double get_semimajor() {
